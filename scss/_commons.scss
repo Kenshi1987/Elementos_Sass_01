@@ -1,0 +1,27 @@
+/*estilos generales*/
+
+	* {
+	padding: 0;
+	margin: 0;	
+	overflow-x: hidden;		
+	box-sizing: border-box;
+	
+	}
+
+	a {
+	text-decoration: none;
+	color: black;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+
+//colores
+$mainColor:rgba(90,240,240, .2);
+$secondaryColor: rgba(252,184,20, .5);
+
+
+
+	

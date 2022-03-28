@@ -1,0 +1,23 @@
+
+//comiensa estilos aside
+
+	aside {
+		background-color: $secondaryColor;
+	}
+
+	aside ul li {
+		list-style: none;
+
+	}
+
+	aside ul li a {
+		text-decoration: none;
+	}
+
+	aside ul li a:hover {
+		color: black;
+		font-weight: 600;
+		cursor: pointer;
+	}
+
+//termina estilos aside

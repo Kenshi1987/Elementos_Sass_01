@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@300&display=swap');
+
+//fuentes
+
+$fontMain:'Roboto', sans-serif;
+$fontTitles:'Acme', sans-serif;
+
+//tamaños textos
+
+$textLg:2rem;
+$textMd:1.5rem;
+$textSm:1rem;
+
+h1,h2,h3 {
+	font-family: $fontTitles;
+	overflow: hidden;
+			
+}
+h1 {
+	font-size:$textLg ;
+}
+h2 {
+	font-size: $textMd;
+}
+h3, p {
+	font-size: $textSm;
+	overflow: hidden;
+}
+
