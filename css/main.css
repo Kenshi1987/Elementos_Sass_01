@@ -29,11 +29,10 @@ h3, p {
 
 nav ul {
   margin-top: 40px; }
-
-nav ul li a:hover {
-  color: black;
-  font-weight: 600;
-  cursor: pointer; }
+  nav ul li a:hover {
+    color: black;
+    font-weight: 600;
+    cursor: pointer; }
 
 .bg-colorNav {
   background-color: rgba(90, 240, 240, 0.2); }
@@ -80,23 +79,21 @@ form {
   padding: 10px;
   font-size: 1rem;
   font-weight: 200; }
+  form label {
+    display: block;
+    margin: 5px 0; }
+    form label input {
+      margin: 5px;
+      text-align: center;
+      width: 80%;
+      font-size: 1rem; }
 
-form label {
-  display: block;
-  margin: 5px 0; }
-
-form input {
-  margin: 5px;
-  text-align: center;
-  width: 80%;
-  font-size: 1rem; }
-
-form .text_area {
+.text_area {
   width: 80%;
   height: 300px; }
 
-form .boton {
-  width: auto; }
+.boton {
+  width: 80px; }
 
 form ::placeholder {
   font-size: .8rem;
@@ -119,24 +116,20 @@ form .text_area::placeholder {
 
 aside {
   background-color: rgba(252, 184, 20, 0.5); }
-
-aside ul li {
-  list-style: none; }
-
-aside ul li a {
-  text-decoration: none; }
-
-aside ul li a:hover {
-  color: black;
-  font-weight: 600;
-  cursor: pointer; }
+  aside ul li {
+    list-style: none; }
+    aside ul li a {
+      text-decoration: none; }
+      aside ul li a a:hover {
+        color: black;
+        font-weight: 600;
+        cursor: pointer; }
 
 /*comienza estilos footer*/
 footer {
   background-color: rgba(90, 240, 240, 0.2); }
-
-footer a img {
-  display: inline-flex;
-  width: 35px;
-  height: 35px;
-  margin-top: 10px; }
+  footer a img {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px; }

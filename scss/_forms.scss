@@ -10,30 +10,27 @@
 		padding: 10px;	
 		font-size: 1rem;
 		font-weight: 200;
-			
+			label {
+				display: block;
+				margin: 5px 0;
+					input {
+						margin: 5px;
+						text-align: center;
+						width: 80%;		
+						font-size: 1rem;							
+					}
+			}			
 	}
 
-	form label {
-		display: block;
-		margin: 5px 0;
+	.text_area {
+			width: 80%;
+			height: 300px;
 	}
-
-	form input {
-		margin: 5px;
-		text-align: center;
-		width: 80%;		
-		font-size: 1rem;
+									
+	.boton {
+		width: 80px;
 	}
-
-	form .text_area {
-		width: 80%;
-		height: 300px;
-	}
-
-	form .boton {
-		width: auto;
-	}
-
+							
 	form ::placeholder {
 		font-size: .8rem;
 		text-align: center;
